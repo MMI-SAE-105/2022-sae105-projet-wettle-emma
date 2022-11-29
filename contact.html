@@ -84,12 +84,23 @@
 
     <p>Si vous avez besoin de plus d’informations ou si vous souhaitez discutez, n’hésitez pas à m’envoyer un message !</p>
 
-    <p>Votre nom</p>
-    <p>Votre addresse mail</p>
-    <p>Votre message</p>
-    <p>Envoyer</p>
+    <form class="section__form form" action="#">
+        <div>
+          <label class="form__label" for="votre-nom">Votre nom</label>
+          <input class="form__field" type="text" name="votre-nom" id="votre-nom">
+        </div>
+        <div>
+          <label class="form__label" for="votre-addresse-mail">Votre addresse mail</label>
+          <input class="form__field" type="text" name="votre-addresse-mail" id="votre-addresse-mail">
+        </div>
+        <div>
+          <label class="form__label" for="votre-message">Votre message</label>
+          <textarea class="form__field" id="votre-message" name="votre-message" rows="5"></textarea>
+        </div>
+        <button class="btn btn--dark" type="submit">Envoyer</button>
+    </form>
 
-   </main>
+    </main>
 
    <footer>
       <h3>Contact</h3>
@@ -102,9 +113,7 @@
       <a href="apropos.html">A propos</a>
       <a href="contact.html">Contact</a>
       <p>Emma Wettlé MMI1 C2</p>
-      <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
-        <a href="https://mmimontbeliard.com"><img src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard"></a>
-      </p>
+      <p>Projet réalisé dans le cadre d’un exercice pédagogique au <a href="http://mmimontbeliard.com">département MMI de Montbéliard<img src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard"></a></p>
        
     </footer>
     
