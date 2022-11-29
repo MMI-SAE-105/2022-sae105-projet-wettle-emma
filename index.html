@@ -7,72 +7,70 @@
     <meta name="description" content="Society Mind">
 
     <title>Society Mind</title>
-    
+    <link rel="stylesheet" href="src/css/styles.css">
+
   </head>
 
   <body>
 
-    <header>
-        <a href="/">
+    <header class="header">
+        <a class="header__logo" href="/">
           <img src="public/icones/logosite1.svg" alt="logo du site">
         </a>
 
-         <a href="homepage.html">
+         <a class="header__switch" href="homepage.html">
           <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
          </a>
       
-         <button>
+         <button class="header__menu-btn">
+          <span class="menu-btn__bar"></span>
           <img src="public/icones/menu1.svg" alt="icone de menu">
         </button>
-      
-        <button>
-          <span></span>
-        </button>
 
-        <nav>
+        <nav class="header__menu menu">
           <p>Articles</p>
-          <ul>
+          <ul class="menu__list">
             
-            <li>
-              <a href="articlefilm.html">
+            <li class="menu__item">
+              <a class="menu__link" href="articlefilm.html">
                 <img src="public/icones/movie-player1.svg" alt="icone de film">
                 La révolte de la jeunesse 
               </a>
             </li>
-            <li>
-              <a href="articleespoir.html">
+            <li class="menu__item"> 
+              <a class="menu__link" href="articleespoir.html">
                 <img src="public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
                 Se battre pour ses valeurs
               </a>
             </li>
-            <li>
-              <a href="articleregret.html">
+            <li class="menu__item">
+              <a class="menu__link" href="articleregret.html">
                 <img src="public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
                 Le danger des nouvelles technologies
               </a>
             </li>
-            <li>
-              <a href="articlelieu.html">
+            <li class="menu__item">
+              <a class="menu__link" href="articlelieu.html">
                 <img src="public/icones/pin1.svg" alt="icone de localisation">
                 Singapour : une ville verte et moderne
               </a>
             </li>
-            <li>
-              <a href="articlelivre.html">
+            <li class="menu__item">
+              <a class="menu__link" href="articlelivre.html">
                 <img src="public/icones/book1.svg" alt="icone de livre">
                 La santé mentale dans la littérature 
               </a>
             </li>
-            <li>
-              <a href="articlemusique.html">
+            <li class="menu__item">
+              <a class="menu__link" href="articlemusique.html">
                 <img src="public/icones/headphones1.svg" alt="icone d'écouteurs">
                 Marina : paroles d'acceptation
               </a>
             </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="autresprojets.html">Autres projets</a></li>
-            <li><a href="apropos.html">A propos</a></li>
-            <li><a href="glossaire.html">Glossaire</a></li>
+            <li><a class="menu__link" href="contact.html">Contact</a></li>
+            <li><a class="menu__link" href="autresprojets.html">Autres projets</a></li>
+            <li><a class="menu__link" href="apropos.html">A propos</a></li>
+            <li><a class="menu__link" href="glossaire.html">Glossaire</a></li>
           </ul>
         </nav>
         
@@ -144,9 +142,9 @@
 
     </main>
     
-    <footer>
+    <footer class="footer">
       <h3>Contact</h3> 
-    <ul>
+    <ul class="footer__contact">
       <li><a href="mailtoemma.wettle@gmail.com">emma.wettle@gmail.com</a></li>
       <li><a href="https://instagram.com" aria-label="instagram"><img src="public/icones/instagram1.svg" alt="Logo instagram"></a></li>
     </ul>

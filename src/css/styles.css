@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+@import "vendors/normalize.css";
+
+@import "utils/variables.css";
+
+@import "layout/header.css";
+@import "layout/footer.css";
+
+@import "base/main.css";
+@import "base/media.css";
+
+@import "components/menu.css";

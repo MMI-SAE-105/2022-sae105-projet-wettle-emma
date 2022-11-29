@@ -1,0 +1,29 @@
+:root {
+    /* Color styles */
+--main-color--brown: rgba(191, 165, 138, 1);
+--main-color--pink: rgba(255, 244, 239, 1);
+--tonic-color--beige: rgba(239, 223, 187, 1);
+--tonic-color--grey: rgba(238, 227, 222, 1);
+--text-color--black: rgba(0, 0, 0, 1);
+--text-color--blue-footer: rgba(0, 68, 102, 1);
+--text-color--grey: rgba(47, 79, 79, 1);
+--text-color--dark-grey: rgba(47, 48, 48, 1);
+
+/* Text-size styles */
+--heading-1: 40px;
+--heading-2: 28px;
+--heading-3: 24px;
+--body-1: 18px;
+--body-2: 16px;
+--buttons: 20px;
+--small-text: 14px;
+--heading-5: 20px;
+--heading-4: 22px;
+
+
+--font-delius: 'Delius';
+--font-kalam: 'Kalam';
+--font-indie-flower: 'Indie Flower';
+
+--letter-spacing: 0.05em
+}

@@ -1,0 +1,46 @@
+.header {
+    background-color: var(--main-color--brown);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 0;
+    margin: auto;
+}
+
+.header__logo {
+    display: block;
+    left: 0;
+}
+
+.header__switch {
+    display: block;
+    left: 2px;
+}
+
+.header__menu-btn {
+    display: block;
+    right: 0px;
+}
+
+.menu-btn__bar, 
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+
+.menu-btn__bar::after {
+    top: 10px;
+}
