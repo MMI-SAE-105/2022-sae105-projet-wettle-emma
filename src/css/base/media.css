@@ -1,0 +1,15 @@
+img {
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-family: var(--font-delius);
+    font-size: var(--small-text);
+    color: var(--text-color--grey);
+}

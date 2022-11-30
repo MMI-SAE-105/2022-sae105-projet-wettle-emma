@@ -1,5 +1,7 @@
 .footer { 
     background-color: var(--main-color--brown);
+    padding: 0%;
+    margin: auto;
 }
 
 .footer__contact {
