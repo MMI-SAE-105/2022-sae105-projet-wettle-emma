@@ -1,0 +1,15 @@
+.polaroid__box {
+    display: flex;
+    background-color: var(--tonic-color--grey);
+    width: 365px;
+    height: 591px;
+    z-index: 1; 
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenu {
+    display: block;
+    flex-direction: column;
+}

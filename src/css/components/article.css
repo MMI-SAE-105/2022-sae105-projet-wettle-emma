@@ -1,7 +1,0 @@
-.box {
-    background-color: var(--tonic-color--grey);
-    width: 350px;
-    height: auto;
-    margin: 1px 1px 1px 1px;
-    z-index: 1;
-}
