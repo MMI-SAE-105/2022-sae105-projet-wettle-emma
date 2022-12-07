@@ -1,6 +1,6 @@
-.header {
-    background-color: var(--main-color--brown);
-    position: relative;
+.header__main {
+    background-color:var(--main-color--brown);
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

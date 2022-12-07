@@ -1,15 +1,27 @@
 .polaroid__box {
     display: flex;
     background-color: var(--tonic-color--grey);
-    width: 365px;
-    height: 591px;
+    width: 350px;
+    height: 580px;
     z-index: 1; 
-    margin: 1px;
+    margin: 18px;
     padding: 0;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+h2  {
+    text-align: center;
+    text-decoration: none;
 }
 
-.contenu {
-    display: block;
-    flex-direction: column;
+image {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+p {
+    text-align: center;
 }

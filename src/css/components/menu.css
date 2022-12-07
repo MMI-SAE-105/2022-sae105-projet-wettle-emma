@@ -35,7 +35,7 @@
 
 
 .menu {
-    background-color: var(--main-color--brown);
+    /*background-color: var(--main-color--brown);
     position: fixed;
     z-index: 2;
     top: 0;
@@ -45,12 +45,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s;
+    transition: all 1s;*/
+    display:none;
 }
 
-.menu-open .menu {
+/*.menu-open .menu {
     transform: translateX();
-}
+}*/
 
 .menu li {
     margin-bottom: 30px;

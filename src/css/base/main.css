@@ -7,41 +7,50 @@
 body {
     font-family: var(--font-delius);
     font-size: var(--body-2);
+    text-decoration: none;
 }
 
 h1 {
     font-family: var(--font-indie-flower);
     font-size: var(--heading-1);
+    margin-top:100px;
+    text-decoration: none;
 }
 
 h2 {
     font-family: var(--font-kalam);
     font-size: var(--heading-2);
+    text-decoration: none;
 }
 
 h3 {
     font-family: var(--font-indie-flower);
     font-size: var(--heading-3);
+    text-decoration: none;
 }
 
 h4 {
     font-family: var(--font-delius);
     font-size: var(--heading-4);
+    text-decoration: none;
 }
 
 h5 {
     font-family: var(--font-kalam);
     font-size: var(--heading-5);
+    text-decoration: none;
 }
 
 body {
     font-family: var(--font-delius);
     font-size: var(--body-1);
+    text-decoration: none;
 }
 
 small text {
     font-family: var(--font-delius);
     font-size: var(--small-text);
+    text-decoration: none;
 }
 
 button { 
@@ -52,6 +61,7 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
