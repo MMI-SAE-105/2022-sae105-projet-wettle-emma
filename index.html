@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
     <meta name="description" content="Society Mind">
 
     <title>Society Mind</title>
-    <link rel="stylesheet" href="src/css/vendors/normalize.css">
     <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
 
   </head>
 
@@ -18,17 +18,15 @@
           <img src="public/icones/logosite1.svg" alt="logo du site">
         </a>
 
-         <a class="header__switch" href="homepage.html">
-          <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
-         </a>
+        <a class="header__switch" href="homepage.html">
+        <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
+        </a>
       
-         <div class="header__menu">
-          <button class="header__menu-btn">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
+        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+          <span class="menu-btn__bar"></span>
+        </button>
 
-        <nav class="menu">
+        <nav class="header__menu menu" x-show="menuIsOpen">
           <ul class="menu__list">
             
             <li class="menu__item">
@@ -87,7 +85,7 @@
         <article class="polaroid__box">
           <h2>La révolte de la jeunesse</h2>
           <a href="articlefilm.html">
-            <img class="imzge" src="public/img/hungergames.webp" alt="photo d'une scène de Hunger Games"></picture>
+            <img class="image" src="public/img/hungergames.webp" alt="photo d'une scène de Hunger Games"></picture>
             <p>La jeunesse actuelle ose protester pour ce qui est important avec l'exemple de Katniss. Mais qui est-elle ?</p>
             <img src="public/icones/right-arrow1.svg" alt="icone de fleche"> En savoir plus
           </a>
@@ -138,7 +136,7 @@
           </a>
         </article>
         
-          <p>Society Mind est un site web dédié à la société contemporaine de 2022 à la façon d’un journal.
+          <p class="header__intro">Society Mind est un site web dédié à la société contemporaine de 2022 à la façon d’un journal.
             Ce site fait un arrêt dans le temps et se penche sur des thématiques importantes de notre société actuelle : la modernité et ses technologies, l’engagement de la jeunesse et l’acceptation de soi, son corps mais aussi son esprit. Il se base sur la culture populaire mais aussi sur les questions d’actualités tels que l’environnement et les nouvelles technologies.</p>
 
     </main>

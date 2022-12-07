@@ -1,9 +1,9 @@
 .polaroid__box {
-    display: flex;
+    display: flexbox;
     background-color: var(--tonic-color--grey);
     width: 350px;
     height: 580px;
-    z-index: 1; 
+    z-index: auto; 
     margin: 18px;
     padding: 0;
     box-sizing: border-box;
@@ -12,11 +12,13 @@
 } 
 
 h2  {
+    font-size: var(--heading-4);
+    font-family: var(--font-delius);
     text-align: center;
     text-decoration: none;
 }
 
-image {
+.image {
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
