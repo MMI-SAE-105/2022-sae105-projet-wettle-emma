@@ -2,26 +2,30 @@
     display: flexbox;
     background-color: var(--tonic-color--grey);
     width: 350px;
-    height: 580px;
     z-index: auto; 
     margin: 18px;
     padding: 0;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
+    gap: 5px;
+    position: static;
 } 
+
+.polaroid__image {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
 
 h2  {
     font-size: var(--heading-4);
     font-family: var(--font-delius);
     text-align: center;
     text-decoration: none;
-}
-
-.image {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: top;
 }
 
 p {

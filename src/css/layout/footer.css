@@ -2,10 +2,30 @@
     background-color: var(--main-color--brown);
     position: bottom;
     width: 100%;
-    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 5px;
     margin: auto;
 }
 
-.footer__lsit {
+.footer__contact {
+    padding: 10px;
+    line-height: 40px;
+}
+
+.footer__list {
     display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer__mention {
+    color: var(--text-color--grey);
+    text-align: center;
+    font-family: var(--font-delius);
+    font-size: var(--body-2);
+}
+
+.footer__logo {
+    position: absolute;
+    right: 10px;
 }
