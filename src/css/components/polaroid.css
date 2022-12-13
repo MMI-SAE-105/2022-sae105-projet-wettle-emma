@@ -1,7 +1,7 @@
 .polaroid__box {
     display: flexbox;
     background-color: var(--tonic-color--grey);
-    width: 350px;
+    width: 95%;
     z-index: auto; 
     margin: 18px;
     padding: 0;
@@ -14,20 +14,29 @@
 } 
 
 .polaroid__image {
-    width: 80%;
+    width: 90%;
     height: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
     vertical-align: top;
 }
 
 h2  {
     font-size: var(--heading-4);
-    font-family: var(--font-delius);
+    font-family: var(--l);
     text-align: center;
     text-decoration: none;
+    padding-top: 0.7rem;
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.polaroid__link {
+    font-family: var(--font-delius);
+    font-size: var(--m);
+    text-decoration: underline;
 }

@@ -22,7 +22,7 @@
     color: var(--text-color--grey);
     text-align: center;
     font-family: var(--font-delius);
-    font-size: var(--body-2);
+    font-size: var(--xs);
 }
 
 .footer__logo {

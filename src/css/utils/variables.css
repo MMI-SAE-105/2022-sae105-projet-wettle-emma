@@ -10,16 +10,14 @@
 --text-color--dark-grey: rgba(47, 48, 48, 1);
 
 /* Text-size styles */
---heading-1: 40px;
---heading-2: 28px;
---heading-3: 24px;
---body-1: 18px;
---body-2: 16px;
---buttons: 20px;
---small-text: 14px;
---heading-5: 20px;
---heading-4: 22px;
-
+--xxxl: 40px;
+--xxl: 28px;
+--xl: 24px;
+--l: 22px;
+--m: 20px;
+--s: 18px;
+--xs: 16px;
+--xxs: 14px;
 
 --font-delius: 'Delius';
 --font-kalam: 'Kalam';

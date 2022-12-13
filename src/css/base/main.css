@@ -4,59 +4,62 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--font-delius);
-    font-size: var(--body-2);
-    text-decoration: none;
-    background-color: var(--main-color--pink);
-}
+
 
 h1 {
     font-family: var(--font-indie-flower);
-    font-size: var(--heading-1);
+    font-size: var(--xxxl);
     margin-top:100px;
     text-decoration: none;
+    text-align: center;
 }
 
 h2 {
     font-family: var(--font-kalam);
-    font-size: var(--heading-2);
+    font-size: var(--xxl);
     text-decoration: none;
 }
 
 h3 {
     font-family: var(--font-indie-flower);
-    font-size: var(--heading-3);
+    font-size: var(--xl);
     text-decoration: none;
 }
 
 h4 {
     font-family: var(--font-delius);
-    font-size: var(--heading-4);
+    font-size: var(--l);
     text-decoration: none;
 }
 
 h5 {
     font-family: var(--font-kalam);
-    font-size: var(--heading-5);
+    font-size: var(--m);
     text-decoration: none;
 }
 
 body {
     font-family: var(--font-delius);
-    font-size: var(--body-1);
+    font-size: var(--s);
     text-decoration: none;
+}
+
+body {
+    font-family: var(--font-delius);
+    font-size: var(--xs);
+    text-decoration: none;
+    background-color: var(--main-color--pink);
 }
 
 small text {
     font-family: var(--font-delius);
-    font-size: var(--small-text);
+    font-size: var(--xxs);
     text-decoration: none;
 }
 
 button { 
     font-family: var(--font-delius);
-    font-size: var(--buttons);
+    font-size: var(--m);
     appearance: none;
     border: none;
     background: none;
