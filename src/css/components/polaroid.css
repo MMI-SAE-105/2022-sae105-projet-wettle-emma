@@ -22,8 +22,8 @@
 }
 
 h2  {
-    font-size: var(--heading-4);
-    font-family: var(--l);
+    font-size: var(--l);
+    font-family: var(--indie-flower);
     text-align: center;
     text-decoration: none;
     padding-top: 0.7rem;
@@ -39,4 +39,7 @@ p {
     font-family: var(--font-delius);
     font-size: var(--m);
     text-decoration: underline;
+    text-align: right;
+    padding-bottom: 1rem;
+    padding-top: -5rem;
 }

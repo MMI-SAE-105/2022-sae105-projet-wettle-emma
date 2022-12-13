@@ -1,12 +1,12 @@
 .header__intro {
     background-color: var(--main-color--brown);
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 100px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.9rem;
+    padding-left: 0.9rem;
+    padding-right: 0.6rem;
+    margin-top: 6rem;
     margin-bottom: 0;
-    text-align: start;
+    text-align: left;
     font-family: var(--font-delius);
     font-size: var(--m);
 }

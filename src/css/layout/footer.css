@@ -2,27 +2,41 @@
     background-color: var(--main-color--brown);
     position: bottom;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 0.9rem;
+    padding-bottom: 3rem;
     margin: auto;
+    font-size: var(--m);
+    padding-left: 0.5rem;
 }
 
 .footer__contact {
-    padding: 10px;
-    line-height: 40px;
+    padding: 0.3rem;
+    line-height: 2.7rem;
+    font-size: var(--xs);
+    text-decoration: underline;
 }
 
 .footer__list {
-    display: flex;
-    gap: 20px;
+    display: inline-flex;
+    gap: 3rem;
     justify-content: center;
+}
+
+.footer__name {
+    font-size: var(--m);
+    text-align: center;
 }
 
 .footer__mention {
     color: var(--text-color--grey);
-    text-align: center;
+    text-align: left;
     font-family: var(--font-delius);
     font-size: var(--xs);
+}
+
+.footer__link {
+    color: var(--text-color--blue-footer);
+    text-decoration: underline;
 }
 
 .footer__logo {
