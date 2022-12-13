@@ -3,10 +3,14 @@
     position: bottom;
     width: 100%;
     padding-top: 0.9rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     margin: auto;
     font-size: var(--m);
     padding-left: 0.5rem;
+}
+
+.footer__list {
+    justify-content: center;
 }
 
 .footer__contact {
@@ -16,12 +20,6 @@
     text-decoration: underline;
 }
 
-.footer__list {
-    display: inline-flex;
-    gap: 3rem;
-    justify-content: center;
-}
-
 .footer__name {
     font-size: var(--m);
     text-align: center;
@@ -29,9 +27,10 @@
 
 .footer__mention {
     color: var(--text-color--grey);
-    text-align: left;
+    text-align: center;
     font-family: var(--font-delius);
     font-size: var(--xs);
+    padding: -1rem;
 }
 
 .footer__link {
