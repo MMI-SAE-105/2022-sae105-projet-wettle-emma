@@ -15,26 +15,6 @@
     margin: 2rem;
 }
 
-.footer__mailto {
-    font-size: var(--xs);
-    text-decoration: underline;
-    text-align: left;
-}
-
-.footer__contact {
-    padding: 0.5rem;
-    margin: 0.7rem;
-    display: inline;
-    vertical-align: sub;
-}
-
-.footer__name {
-    font-size: var(--s);
-    text-align: left;
-    padding: 0.3rem;
-    margin: 0;
-}
-
 .footer__mention {
     color: var(--text-color--black);
     text-align: center;
@@ -48,9 +28,31 @@
     text-decoration: underline;
 }
 
+.footer__name {
+    font-size: var(--s);
+    text-align: left;
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.footer__mailto {
+    font-size: var(--xs);
+    text-decoration: underline;
+    text-align: left;
+}
+
+.footer__contact {
+    padding: 0.5rem;
+    margin: 0.7rem;
+}
+
 .footer__logo-mmi {
     position: absolute;
     right: 6rem;
+}
+
+.list-unstyled {
+    display: inline;
 }
 
 .footer__logo-site {

@@ -1,3 +1,8 @@
+.polaroid__h1 {
+    font-family: var(--font-indie-flower);
+    font-size: var(--xxxl);
+}
+
 .polaroid__box {
     display: flexbox;
     background-color: var(--tonic-color--grey);

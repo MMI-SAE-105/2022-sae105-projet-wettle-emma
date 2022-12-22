@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Society Mind">
     <title>Se battre pour ses valeurs</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
   </head>
 
   <body>
@@ -100,20 +102,21 @@
        
    </main>
 
-   <footer>
-    <h3>Contact</h3>
-      <ul>
-      <li><a href="mailtoemma.wettle@gmail.com">emma.wettle@gmail.com</a></li>
-      <li><a href="https://instagram.com" aria-label="instagram"><img src="public/icones/instagram1.svg" alt="Logo instagram"></a></li>
-      
-    </ul>
-      
-      <a href="apropos.html">A propos</a>
-      <a href="contact.html">Contact</a>
-      <p>Emma Wettlé MMI1 C2</p>
-      <p>Projet réalisé dans le cadre d’un exercice pédagogique au <a href="http://mmimontbeliard.com">département MMI de Montbéliard<img src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard"></a></p>
-       
-    </footer>
+   <footer class="footer"> 
+    <a class="footer__list" href="apropos.html">A propos</a>
+    <a class="footer__list" href="contact.html">Contact</a>
+    <p class="footer__mention">Projet réalisé dans le cadre d’un exercice pédagogique au <a class="footer__link" href="http://mmimontbeliard.com">département MMI de Montbéliard</a></p>
+  <p class="footer__name">Emma Wettlé MMI1 C2</p>
+  <a class="footer__mailto" href="mailtoemma.wettle@gmail.com">emma.wettle@gmail.com</a>
+  <ul class="footer__contact">
+    <li class="list-unstyled"><a href="https://instagram.com" aria-label="instagram"><img src="public/icones/instagram1.svg" alt="Logo instagram"></a></li>
+    <li class="list-unstyled"><a href="https://pinterest.com" aria-label="pinterest"><img src="public/icones/pinterest.svg" alt="Logo pinterest"></a></li>
+  </ul>
+    
+    <img class="footer__logo-mmi" src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard">
+    <img class="footer__logo-site" src="public/icones/logosite1.svg" alt="logo du site">
+
+  </footer>
     
   </body>
 </html>
