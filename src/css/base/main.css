@@ -77,6 +77,8 @@ button {
 
 a {
     color: black;
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
 }
 
 figcaption {

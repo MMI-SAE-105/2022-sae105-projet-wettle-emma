@@ -1,0 +1,9 @@
+.ovale {
+    width: 22rem;
+    height: 5rem;
+    background-color: var(--tonic-color--beige);
+    border-top-left-radius: 9rem 6rem;
+    border-top-right-radius: 9rem 6rem;
+    border-bottom-right-radius: 9rem 6rem;
+    border-bottom-left-radius: 9rem 6rem;
+}
