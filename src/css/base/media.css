@@ -1,6 +1,8 @@
 img {
     max-width: 100%;
     height: auto;
+    margin: auto;
+    display: flex;
 }
 
 figure {
@@ -9,6 +11,6 @@ figure {
 
 figcaption {
     font-family: var(--font-delius);
-    font-size: var(--small-text);
+    font-size: var(--xxs);
     color: var(--text-color--grey);
 }

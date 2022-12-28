@@ -14,11 +14,11 @@ h1 {
     text-align: center;
 }
 
-h2 {
+/*h2 {
     font-family: var(--font-kalam);
     font-size: var(--xxl);
     text-decoration: none;
-}
+}*/
 
 h3 {
     font-family: var(--font-indie-flower);
@@ -55,7 +55,7 @@ small text {
     font-family: var(--font-delius);
     font-size: var(--xxs);
     text-decoration: none;
-}
+}*/
 
 button { 
     font-family: var(--font-delius);
@@ -77,5 +77,10 @@ button {
 
 a {
     color: black;
-    text-decoration: none;
+}
+
+figcaption {
+    font-size: var(--xxs);
+    color: var(--text-color--grey);
+    text-align: center;
 }
