@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Society Mind">
-    <title>La filmographie du réalisateur</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <script src="https://unpkg.com/alpinejs" defer></script>
   </head>
@@ -13,11 +13,11 @@
   <body>
 
     <header>
-      <a href="index.html">
+      <a href="homepage.html">
         <img src="public/icones/logosite1.svg" alt="logo du site">
       </a>
 
-       <a href="homepage.html">
+       <a href="contact.html">
         <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
        </a>
     
@@ -78,44 +78,34 @@
       
   </header>
     
-    <h1>La filmographie du réalisateur</h1>
+    <h1>Write us !</h1>
 
     <main>
 
-      <h2 class="filmo__title">Francis Lawrence</h2> 
-       <img class="filmo__imgright" src="public/img/constantine.webp" alt="photo de l'affiche du film Constantine">
-       <p class="filmo__textleft">Constantine 2005</p>
+    <p>If you need more informations or if you want to simply chat, don't hesitate to send me a message !</p>
 
-       <img class="filmo__imgleft" src="public/img/jesuisunelegende.webp" alt="photo de l'affiche du film Je suis une légende">
-       <p class="filmo__textright">Je suis une légende 2007</p>
+    <form class="section__form form" action="#">
+        <div>
+          <label class="form__label" for="votre-nom">Your name</label>
+          <input class="form__field" type="text" name="votre-nom" id="votre-nom">
+        </div>
+        <div>
+          <label class="form__label" for="votre-addresse-mail">Your email</label>
+          <input class="form__field" type="text" name="votre-addresse-mail" id="votre-addresse-mail">
+        </div>
+        <div>
+          <label class="form__label" for="votre-message">Your message</label>
+          <textarea class="form__field" id="votre-message" name="votre-message" rows="5"></textarea>
+        </div>
+        <button class="btn btn--dark" type="submit">Send</button>
+    </form>
 
-       <img class="filmo__imgright" src="public/img/waterforelephants.webp" alt="photo de l'affiche du film De l'eau pour les éléphants">
-       <p class="filmo__textleft">De l'eau pour les éléphants 2011</p>
+    </main>
 
-       <img class="filmo__imgleft" src="public/img/catchingfire.webp" alt="photo de l'affiche du film Hunger Games : l'Embrassement">
-       <p class="filmo__textright">Hunger Games : l'Embrassement 2013</p>
-
-       <img class="filmo__imgright" src="public/img/mockingjay.webp" alt="photo de l'affiche du film Hunger Games : La Révolte, partie 1">
-       <p class="filmo__textleft">Hunger Games : La Révolte, partie 1 2014</p>
-
-       <img class="filmo__imgleft" src="public/img/mockingjay2.webp" alt="photo de l'affiche du film Hunger Games : La Révolte, partie 2">
-       <p class="filmo__textright">Hunger Games : La Révolte, partie 2 2015</p>
-
-       <img class="filmo__imgright" src="public/img/redsparrow.webp" alt="photo de l'affiche du film Red Sparrow">
-       <p class="filmo__textleft">Red Sparrow 2018</p>
-
-       <img class="filmo__imgleft" src="public/img/slumberland.webp" alt="photo de l'affiche du film Slumberland">
-       <p class="filmo__textright">Slumberland 2022</p>
-
-       <img class="filmo__imgright" src="public/img/balladeofserpent.webp" alt="photo de l'affiche du film Hunger Games : La Ballade du serpent et de l’oiseau chanteur">
-       <p class="filmo__textleft">Hunger Games : La Ballade du serpent et de l’oiseau chanteur 2023</p>
-
-   </main>
-
-  <footer class="footer"> 
-      <a class="footer__list" href="apropos.html">A propos</a>
+    <footer class="footer"> 
+      <a class="footer__list" href="apropos.html">About me</a>
       <a class="footer__list" href="contact.html">Contact</a>
-      <p class="footer__mention">Projet réalisé dans le cadre d’un exercice pédagogique au <a class="footer__link" href="http://mmimontbeliard.com">département MMI de Montbéliard</a></p>
+      <p class="footer__mention">Project produces as part of an academical exercice in <a class="footer__link" href="http://mmimontbeliard.com">the MMI department of Montbéliard</a></p>
     <p class="footer__name">Emma Wettlé MMI1 C2</p>
     <a class="footer__mailto" href="mailtoemma.wettle@gmail.com">emma.wettle@gmail.com</a>
     <ul class="footer__contact">
@@ -126,7 +116,7 @@
       <a href="http://mmimontbeliard.com"></a><img class="footer__logo-mmi" src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard">
       <a href="index.html"></a><img class="footer__logo-site" src="public/icones/logosite1.svg" alt="logo du site">
 
-  </footer>
+    </footer>
     
   </body>
 </html>

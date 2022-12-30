@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Society Mind">
+    <title>Youth revolt</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+
+  <body>
+
+    <header class="header__main">
+      <a class="header__logo" href="homepage.html">
+        <img src="public/icones/logosite1.svg" alt="logo du site">
+      </a>
+
+      <a class="header__switch" href="articlefilm.html">
+      <img src="public/icones/switchenfrançais.svg" alt="icone de changement de langue">
+      </a>
+    
+      <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+        <span class="menu-btn__bar"></span>
+      </button>
+
+      <nav class="header__menu menu" x-show="menuIsOpen">
+        <ul class="menu__list">
+          
+          <li class="menu__item">
+            <a class="menu__link" href="articlefilm.html">
+              <img src="public/icones/movie-player1.svg" alt="icone de film">
+              Youth revolt 
+            </a>
+          </li>
+          <li class="menu__item"> 
+            <a class="menu__link" href="articleespoir.html">
+              <img src="public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
+              Fighting for our values 
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="articleregret.html">
+              <img src="public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
+              The danger of news technologies
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="articlelieu.html">
+              <img src="public/icones/pin1.svg" alt="icone de localisation">
+              Singapore : a green and modern city
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="articlelivre.html">
+              <img src="public/icones/book1.svg" alt="icone de livre">
+              Mental health in literature 
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="articlemusique.html">
+              <img src="public/icones/headphones1.svg" alt="icone d'écouteurs">
+              Marina : acceptation lyrics
+            </a>
+          </li>
+          <li class="list-unstyled"><a class="menu__link" href="contact.html">Contact</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="autresprojets.html">Others projects</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="apropos.html">About me</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="glossaire.html">Glossary</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+
+    <div class="article__header">
+        <img src="public/img/articlefilm.webp" alt="feuille cadrillée">
+    </div>
+    
+    <h1 class="article__h1">Youth revolt</h1>
+
+    <main>
+
+      <p class="article__text">Since the release of <a href="glossaire.html">The Hunger Games</a> movie, the youth have dared to make their voices heard. All over the world, they are protesting against a form of authority.</p> 
+       <img class="article__picture" src="public/img/articlehg.webp" alt="photo du film hunger games">
+       <figure><figcaption>Snippet of The Hunger Games : Catching Fire</figcaption></figure>
+
+      <h2 class="article__title">An example that speaks to young people</h2>
+       <p class="article__text">The heroine rebels against her hostile and manipulative state. She risks denouncing this manipulation through her popularity. It all starts with three raised fingers, a sign of goodbye transformed into a sign of rebellion. Katniss, the protagonist, is the first to use it and unintentionally starts a rebellion. Other citizens dare to do the same out of exhaustion with the actions of the Capitol. A rebellion is slowly taking place thanks to the media. Snow, the president must prevent it to keep control of the population. The most courageous are not afraid of repression and dare to oppose. Some die for the rebellion and the others works harder to win.</p> 
+    
+      <h2 class="article__title">The courage to fight</h2>
+       <p class="article__text">Katniss stands up for the end of the Games and for Snow's manipulation. She also rebels against the lack of respect for the poorer people. Her tenacity inspires young people to fight against injustice. When the second opus was released, some people wore the popular sign. Young people from oppressed countries and those who support them have boldly followed Katniss. Those who dare can hope to make a difference. Despite the dangers, despite the losses, to resist is to hope and to exist. All it takes is one person who dares and causes something to happen. Even a small change can be made, with willpower and tenacity.</p>
+       <img class="article__picture" src="public/img/signehg.webp" alt="photo des trois doigts levés">
+       <figure><figcaption>Poster present in many cities to show the revolt</figcaption></figure>
+       <p></p>
+
+      <h2 class="article__title">Getting a message across</h2>
+       <p class="article__text">This film saga encourages people to revolt for justice. But it also sends a message to young people in more democratic countries. Young people must dare to make their voices heard like Katniss. Whether it is for political, ecological, personal ideas, etc. Hunger Games shows them that they can fight for what is important to them. Young people should not be influenced by the media. Adults have more experience. But they don't know what is best for each young person. So, we have to dare and risk. When your voice is heard, you can change things.</p>
+        
+        <ul >
+            <li><a class="article__link" href="filmographie.html">To discover the director's filmography, click here!</a></li>
+            <li><a class="article__link" href="articleespoir.html">To see how young people demonstrate, it's here</a></li>
+        </ul>
+
+   </main>
+
+   <footer class="footer"> 
+      <a class="footer__list" href="apropos.html">About me</a>
+      <a class="footer__list" href="contact.html">Contact</a>
+      <p class="footer__mention">Project produces as part of an academical exercice in <a class="footer__link" href="http://mmimontbeliard.com">the MMI department of Montbéliard</a></p>
+    <p class="footer__name">Emma Wettlé MMI1 C2</p>
+    <a class="footer__mailto" href="mailtoemma.wettle@gmail.com">emma.wettle@gmail.com</a>
+    <ul class="footer__contact">
+      <li class="list-unstyled"><a href="https://instagram.com/lhommesoleil68/" aria-label="instagram"><img src="public/icones/instagram1.svg" alt="Logo instagram"></a></li>
+      <li class="list-unstyled"><a href="https://pinterest.com/emmawettle/" aria-label="pinterest"><img src="public/icones/pinterest.svg" alt="Logo pinterest"></a></li>
+    </ul>
+      
+      <a href="http://mmimontbeliard.com"></a><img class="footer__logo-mmi" src="public/icones/MMI_dut_black_png1.svg" alt="logo mmi montbéliard">
+      <a href="index.html"></a><img class="footer__logo-site" src="public/icones/logosite1.svg" alt="logo du site">
+
+    </footer>
+
+  </body>
+</html>
