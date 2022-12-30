@@ -1,3 +1,7 @@
+.extrait__photo {
+    display: flex;
+}
+
 .extrait__image1 {
     width: 50%;
     float: left;

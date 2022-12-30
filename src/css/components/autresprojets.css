@@ -1,9 +1,30 @@
 .ovale {
-    width: 22rem;
-    height: 5rem;
+    display: flexbox;
+    z-index: auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    width: 20rem;
+    height: 4rem;
     background-color: var(--tonic-color--beige);
-    border-top-left-radius: 9rem 6rem;
-    border-top-right-radius: 9rem 6rem;
-    border-bottom-right-radius: 9rem 6rem;
-    border-bottom-left-radius: 9rem 6rem;
+    border-top-left-radius: 5rem 3rem;
+    border-top-right-radius: 5rem 3rem;
+    border-bottom-right-radius: 5rem 3rem;
+    border-bottom-left-radius: 5rem 3rem;
+}
+
+.autresprojets__text {
+    padding-bottom: 2rem;
+    text-align: justify;
+    
+}
+
+.autresprojets__contenu {
+    text-align: center;
+    text-decoration: none;
 }

@@ -8,6 +8,7 @@
 
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/article.css";
 
 @import "base/main.css";
 @import "base/media.css";
@@ -15,3 +16,9 @@
 @import "components/menu.css";
 @import "components/polaroid.css";
 @import "components/intro.css";
+@import "components/glossaire.css";
+@import "components/filmographie.css";
+@import "components/extrait.css";
+@import "components/contact.css";
+@import "components/autresprojets.css";
+@import "components/apropos.css";

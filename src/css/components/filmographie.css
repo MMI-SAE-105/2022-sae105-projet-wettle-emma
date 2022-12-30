@@ -2,3 +2,35 @@ h1 {
     font-weight: var(--font-kalam);
     font-size: var(--xxl);
 }
+
+.filmo__title {
+    font-size: var(--l);
+    font-family: var(--font-delius);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.filmo__imgright {
+    float: right;
+    width: 40%;
+    margin-right: 0.5rem;
+}
+
+.filmo__imgleft {
+    float: left;
+    width: 40%;
+    margin-left: 0.5rem;
+}
+
+.filmo__textleft {
+    text-align: left;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.filmo__textrigth {
+    text-align: right;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}

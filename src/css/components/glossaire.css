@@ -1,0 +1,20 @@
+.glossaire__title {
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: var(--m);
+    font-family: var(--font-kalam);
+}
+
+.glossaire__link { 
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.glossaire__text {
+    margin: 0.5rem;
+}
