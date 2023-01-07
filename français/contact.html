@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Society Mind">
+    
     <title>Contact</title>
     <link rel="stylesheet" href="../src/css/styles.css">
     <script src="https://unpkg.com/alpinejs" defer></script>
@@ -12,67 +13,62 @@
 
   <body>
 
-    <header>
-      <a href="index.html">
-        <img src="public/icones/logosite1.svg" alt="logo du site">
+    <header class="header__main">
+      <a class="header__logo" href="../français/accueil.html">
+        <img src="../public/icones/logosite1.svg" alt="logo du site">
       </a>
 
-       <a href="homepage.html">
-        <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
-       </a>
+      <a class="header__switch" href="../anglais/contacts.html">
+      <img src="../public/icones/switchenanglais.svg" alt="icone de changement de langue">
+      </a>
     
-       <button>
-        <img src="public/icones/menu1.svg" alt="icone de menu">
-      </button>
-    
-      <button>
-        <span></span>
+      <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+        <span class="menu-btn__bar"></span>
       </button>
 
-      <nav>
-        <p>Articles</p>
-        <ul>
+      <nav class="header__menu menu" x-show="menuIsOpen">
+        <ul class="menu__list">
           
-          <li>
-            <a href="articlefilm.html">
-              <img src="public/icones/movie-player1.svg" alt="icone de film">
+          <li class="menu__item">
+            <a class="menu__link" href="../français/articlefilm.html">
+              <img src="../public/icones/movie-player1.svg" alt="icone de film">
               La révolte de la jeunesse 
             </a>
           </li>
-          <li>
-            <a href="articleespoir.html">
-              <img src="public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
+          <li class="menu__item"> 
+            <a class="menu__link" href="../français/articleespoir.html">
+              <img src="../public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
               Se battre pour ses valeurs
             </a>
           </li>
-          <li>
-            <a href="articleregret.html">
-              <img src="public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
+          <li class="menu__item">
+            <a class="menu__link" href="../français/articleregret.html">
+              <img src="../public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
               Le danger des nouvelles technologies
             </a>
           </li>
-          <li>
-            <a href="articlelieu.html">
-              <img src="public/icones/pin1.svg" alt="icone de localisation">
+          <li class="menu__item">
+            <a class="menu__link" href="../français/articlelieu.html">
+              <img src="../public/icones/pin1.svg" alt="icone de localisation">
               Singapour : une ville verte et moderne
             </a>
           </li>
-          <li>
-            <a href="articlelivre.html">
-              <img src="public/icones/book1.svg" alt="icone de livre">
+          <li class="menu__item">
+            <a class="menu__link" href="../français/articlelivre.html">
+              <img src="../public/icones/book1.svg" alt="icone de livre">
               La santé mentale dans la littérature 
             </a>
           </li>
-          <li>
-            <a href="articlemusique.html">
-              <img src="public/icones/headphones1.svg" alt="icone d'écouteurs">
+          <li class="menu__item">
+            <a class="menu__link" href="../français/articlemusique.html">
+              <img src="../public/icones/headphones1.svg" alt="icone d'écouteurs">
               Marina : paroles d'acceptation
             </a>
           </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="autresprojets.html">Autres projets</a></li>
-          <li><a href="apropos.html">A propos</a></li>
-          <li><a href="glossaire.html">Glossaire</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../français/contact.html">Contact</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../français/autresprojets.html">Autres projets</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../français/apropos.html">A propos</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../français/glossaire.html">Glossaire</a></li>
         </ul>
       </nav>
       

@@ -14,65 +14,65 @@
 
   <body>
     <header class="header__main">
-        <a class="header__logo" href="/">
-          <img src="../public/icones/logosite1.svg" alt="logo du site">
-        </a>
+      <a class="header__logo" href="../anglais/homepage.html">
+        <img src="../public/icones/logosite1.svg" alt="logo du site">
+      </a>
 
-        <a class="header__switch" href="../français/accueil.html">
-        <img src="../public/icones/switchenfrançais.svg" alt="icone de changement de langue">
-        </a>
+      <a class="header__switch" href="../français/accueil.html">
+      <img src="../public/icones/switchenfrançais.svg" alt="icone de changement de langue">
+      </a>
+    
+      <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+        <span class="menu-btn__bar"></span>
+      </button>
+
+      <nav class="header__menu menu" x-show="menuIsOpen">
+        <ul class="menu__list">
+          
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlemovie.html">
+              <img src="../public/icones/movie-player1.svg" alt="icone de film">
+              Youth revolt 
+            </a>
+          </li>
+          <li class="menu__item"> 
+            <a class="menu__link" href="../anglais/articlehope.html">
+              <img src="../public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
+              Fighting for our values 
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articleregrett.html">
+              <img src="../public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
+              The danger of news technologies
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articleplace.html">
+              <img src="../public/icones/pin1.svg" alt="icone de localisation">
+              Singapore : a green and modern city
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlebook.html">
+              <img src="../public/icones/book1.svg" alt="icone de livre">
+              Mental health in literature 
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlemusic.html">
+              <img src="../public/icones/headphones1.svg" alt="icone d'écouteurs">
+              Marina : acceptation lyrics
+            </a>
+          </li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/contacts.html">Contact</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/othersprojects.html">Others projects</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/aboutme.html">About me</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/glossary.html">Glossary</a></li>
+        </ul>
+      </nav>
       
-        <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
-          <span class="menu-btn__bar"></span>
-        </button>
-
-        <nav class="header__menu menu" x-show="menuIsOpen">
-          <ul class="menu__list">
-            
-            <li class="menu__item">
-              <a class="menu__link" href="../anglais/articlemovie.html">
-                <img src="../public/icones/movie-player1.svg" alt="icone de film">
-                Youth revolt
-              </a>
-            </li>
-            <li class="menu__item"> 
-              <a class="menu__link" href="../anglais/articlehope.html">
-                <img src="../public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
-                Fighting for our values
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="../anglais/articleregrett.html">
-                <img src="../public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
-                The danger of news technologies
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="../anglais/articleplace.html">
-                <img src="../public/icones/pin1.svg" alt="icone de localisation">
-                Singapore : a green and modern city
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="../anglais/articlebook.html">
-                <img src="../public/icones/book1.svg" alt="icone de livre">
-                Mental health in literature
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="../anglais/articlemusic.html">
-                <img src="../public/icones/headphones1.svg" alt="icone d'écouteurs">
-                Marina : acceptation lyrics
-              </a>
-            </li>
-            <li class="list-unstyled"><a class="menu__link" href="../anglais/contacts.html">Contact</a></li>
-            <li class="list-unstyled"><a class="menu__link" href="../anglais/othersprojects.html">Others projects</a></li>
-            <li class="list-unstyled"><a class="menu__link" href="../anglais/aboutme.html">About me</a></li>
-            <li class="list-unstyled"><a class="menu__link" href="../anglais/glossary.html">Glossary</a></li>
-          </ul>
-        </nav>
-        
-    </header>
+  </header>
 
     
     <main>

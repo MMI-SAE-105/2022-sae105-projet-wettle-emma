@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Society Mind">
+   
     <title>Snippets of the book</title>
     <link rel="stylesheet" href="../src/css/styles.css">
     <script src="https://unpkg.com/alpinejs" defer></script>
@@ -12,67 +13,62 @@
 
   <body>
 
-    <header>
-      <a href="homepage.html">
-        <img src="public/icones/logosite1.svg" alt="logo du site">
+    <header class="header__main">
+      <a class="header__logo" href="../anglais/homepage.html">
+        <img src="../public/icones/logosite1.svg" alt="logo du site">
       </a>
 
-       <a href="extrait.html">
-        <img src="public/icones/switchenanglais.svg" alt="icone de changement de langue">
-       </a>
+      <a class="header__switch" href="../français/extrait.html">
+      <img src="../public/icones/switchenfrançais.svg" alt="icone de changement de langue">
+      </a>
     
-       <button>
-        <img src="public/icones/menu1.svg" alt="icone de menu">
-      </button>
-    
-      <button>
-        <span></span>
+      <button class="header__menu-btn" @click="menuIsOpen = ! menuIsOpen">
+        <span class="menu-btn__bar"></span>
       </button>
 
-      <nav>
-        <p>Articles</p>
-        <ul>
+      <nav class="header__menu menu" x-show="menuIsOpen">
+        <ul class="menu__list">
           
-          <li>
-            <a href="articlefilm.html">
-              <img src="public/icones/movie-player1.svg" alt="icone de film">
-              La révolte de la jeunesse 
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlemovie.html">
+              <img src="../public/icones/movie-player1.svg" alt="icone de film">
+              Youth revolt 
             </a>
           </li>
-          <li>
-            <a href="articleespoir.html">
-              <img src="public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
-              Se battre pour ses valeurs
+          <li class="menu__item"> 
+            <a class="menu__link" href="../anglais/articlehope.html">
+              <img src="../public/icones/satisfaction1.svg" alt="icone de pouce en l'air">
+              Fighting for our values 
             </a>
           </li>
-          <li>
-            <a href="articleregret.html">
-              <img src="public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
-              Le danger des nouvelles technologies
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articleregrett.html">
+              <img src="../public/icones/dissatisfaction1.svg" alt="icone de pouce en bas">
+              The danger of news technologies
             </a>
           </li>
-          <li>
-            <a href="articlelieu.html">
-              <img src="public/icones/pin1.svg" alt="icone de localisation">
-              Singapour : une ville verte et moderne
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articleplace.html">
+              <img src="../public/icones/pin1.svg" alt="icone de localisation">
+              Singapore : a green and modern city
             </a>
           </li>
-          <li>
-            <a href="articlelivre.html">
-              <img src="public/icones/book1.svg" alt="icone de livre">
-              La santé mentale dans la littérature 
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlebook.html">
+              <img src="../public/icones/book1.svg" alt="icone de livre">
+              Mental health in literature 
             </a>
           </li>
-          <li>
-            <a href="articlemusique.html">
-              <img src="public/icones/headphones1.svg" alt="icone d'écouteurs">
-              Marina : paroles d'acceptation
+          <li class="menu__item">
+            <a class="menu__link" href="../anglais/articlemusic.html">
+              <img src="../public/icones/headphones1.svg" alt="icone d'écouteurs">
+              Marina : acceptation lyrics
             </a>
           </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="autresprojets.html">Autres projets</a></li>
-          <li><a href="apropos.html">A propos</a></li>
-          <li><a href="glossaire.html">Glossaire</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/contacts.html">Contact</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/othersprojects.html">Others projects</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/aboutme.html">About me</a></li>
+          <li class="list-unstyled"><a class="menu__link" href="../anglais/glossary.html">Glossary</a></li>
         </ul>
       </nav>
       
