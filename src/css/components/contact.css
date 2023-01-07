@@ -1,0 +1,27 @@
+.section__form {
+    padding-left: 3rem;
+   
+}
+
+.form__label {
+    display: flex;
+}
+
+.form__field {
+    border-radius: 1rem;
+    background: var(--tonic-color--beige);
+    border-color: var(--tonic-color--beige);
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 70%;
+}
+
+.form__button {
+    border-radius: 1rem;
+    background: var(--main-color--brown);
+    border-color: var(--main-color--brown);
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: auto;
+}
