@@ -1,6 +1,7 @@
-h1 {
+.filmo__h1 {
     font-weight: var(--font-kalam);
     font-size: var(--xxl);
+    margin-top: 2rem;
 }
 
 .filmo__title {

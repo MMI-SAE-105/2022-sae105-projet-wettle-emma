@@ -87,3 +87,10 @@ figcaption {
     text-align: center;
     padding: 0.5rem;
 }
+
+.left__arrow {
+    padding-top: 6rem;
+    padding-bottom: 0;
+    margin-left: 0.5rem;
+}
+

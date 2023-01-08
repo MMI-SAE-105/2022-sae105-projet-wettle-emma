@@ -1,3 +1,9 @@
+.frise__h1 {
+    font-weight: var(--font-kalam);
+    font-size: var(--xxl);
+    margin-top: 0;
+}
+
 .frise__img {
     width: 20%;
 }
