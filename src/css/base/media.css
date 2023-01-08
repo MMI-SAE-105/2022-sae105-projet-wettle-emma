@@ -14,3 +14,9 @@ figcaption {
     font-size: var(--xxs);
     color: var(--text-color--grey);
 }
+
+video {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
