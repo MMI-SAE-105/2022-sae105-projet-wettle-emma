@@ -26,12 +26,37 @@
 
 .filmo__textleft {
     text-align: left;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-right: 10rem;
 }
 
-.filmo__textrigth {
+.filmo__textright {
     text-align: right;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.filmo__textleft2 {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    margin-top: 0;
+}
+
+.filmo__textright2 {
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    margin-top: 0;
+}
+
+.filmo__line { 
+    border-left: 0.4rem solid black;
+    height: 125rem;
+    left: 49%;
+    position: absolute;
+    z-index: -1;
 }
