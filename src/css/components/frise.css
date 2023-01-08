@@ -40,7 +40,7 @@
 .frise__line {
     border-left: 0.7rem solid var(--main-color--brown);
     border-radius: 1rem;
-    height: 60rem;
+    height: 80rem;
     left: 55%;
     position: absolute;
     z-index: -1;
